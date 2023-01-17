@@ -1,0 +1,192 @@
+/* CSS reset */
+.web-body {
+    font-family: "Baloo Bhai 2", cursive;
+    background-image: url("images/gwi-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: -20px;
+    padding: 5px;
+    height: 200%;
+    width: 100%;
+    color: white;
+}
+
+/* Header -  Navbar Background */
+header div {
+    position: sticky;
+    padding: 2px;
+    margin: 0px -15px 0px 15px;
+    background-color: black;
+    height: 140px;
+}
+
+/* Logo division */
+.left {
+    margin: -4px 50px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    height: 100px;
+    cursor: pointer;
+}
+
+/* Logo image */
+.left img {
+    width: 140px;
+    margin: -5px 10px 5px 70px; /* top right bottom left */
+}
+
+/* Logo text */
+.left div {
+    height: 80px;
+    text-align: center;
+    font-size: 45px;
+    float: right;
+    margin: 25px 1px;
+}
+
+/* Logo text(span) */
+.left div span {
+    color: gold;
+}
+
+/* navbar */
+.center {
+    font-size: 45px;
+    display: block;
+    height: 100px;
+    width: 50%;
+    margin: -4px auto;
+}
+
+/* Button division */
+.right {
+    height: 100px;
+    margin: -4px 70px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+/* navbar CSS starts */
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+.navbar li a:hover {
+    color: black;
+    background-color: gold;
+    text-decoration: underline;
+    padding: 40px;
+}
+.navbar li a:active {
+    color: black;
+    background-color: gold;
+    text-decoration: underline;
+    padding: 40px;
+}
+/* navbar CSS ends */
+
+/* Buttons */
+.btn {
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 45px;
+    margin: 12px 35px;
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+    height: 100px;
+}
+
+/* Button: hover */
+.btn:hover {
+    background-color: gold;
+    color: black;
+    border: 2px solid white;
+}
+
+/* Joining form - division */
+.container {
+    margin: 400px 550px;
+    padding: 5px 100px;
+    display: block;
+    height: 1050px;
+    width: 35%;
+    box-sizing: border-box;
+    border: 5px solid gold;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+    box-shadow: 20px 20px rgb(0, 0, 0, 0.3);
+}
+
+/* Joining form - heading  */
+.form-head h2 {
+    text-align: center;
+    font-size: 100px;
+    color: gold;
+    margin: 20px 0px;
+}
+
+/* Joining form input boxes */
+.form-group input {
+    text-align: center;
+    font-family: "Baloo Bhai 2", cursive;
+    display: block;
+    width: 700px;
+    margin: 20px auto;
+    padding: 5px 5px;
+    border: 2px solid black;
+    font-size: 40px;
+}
+
+/* Joining form submit button */
+.form-group button {
+    display: block;
+    width: 40%;
+    margin: 50px auto;
+    height: 75px;
+    padding: 0px 2px;
+    background-color: gold;
+    color: black;
+    border: 4px solid black;
+}
+
+/* Joining form submit button: hover */
+.form-group button:hover {
+    background-color: black;
+    border: 2px solid gold;
+    color: white;
+}
+
+/* Whatsapp logo division */
+.whatsapp {
+    box-sizing: border-box;
+    display: inline-block;
+    position: fixed;
+    right: 130px;
+    bottom: 80px;
+}
+
+/* Whatsapp logo image */
+.whatsapp img {
+    height: 200px;
+    filter: drop-shadow(15px 15px 8px #222);
+}
+
+/* Whatsapp logo image: hover */
+.whatsapp img:hover {
+    height: 230px;
+}
